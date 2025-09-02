@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>Проверочная работа по теме: Задания 6–14 ОГЭ</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root{
+      --mint:#e9fbf4; --rose:#ffe6ee; --shadow:0 4px 12px rgba(0,0,0,.08);
+    }
+    body{font-family:'Comfortaa',sans-serif;background:#f6f7f9;margin:0;padding:20px;color:#2d2d2d}
+    h1{margin:0 0 10px;text-align:center;color:#333}
+    .note{text-align:center;margin:0 auto 24px;font-size:16px;color:#666;max-width:740px}
+    .level{margin:0 auto 42px;max-width:740px}
+    .level h2{text-align:center;background:linear-gradient(90deg,var(--mint),var(--rose));padding:10px 14px;border-radius:16px;color:#444;margin:0 0 18px}
+    .card{background:#fff;border-radius:22px;box-shadow:var(--shadow);padding:20px;margin-bottom:20px}
+    .card h3{margin:0 0 8px;color:#555;font-weight:600}
+    .expr{margin-bottom:10px}
+    input[type=text]{width:100%;padding:10px 12px;border-radius:14px;border:1px solid #e4e7eb;font-size:16px}
+    .buttons{text-align:center;margin:34px 0}
+    button{padding:12px 26px;margin:6px;border:none;border-radius:26px;font-size:16px;cursor:pointer;background:#ffcad4;color:#333;box-shadow:var(--shadow);transition:.25s}
+    button:hover{background:#b5ead7;transform:translateY(-1px)}
+    .btn-sub{display:inline-block;padding:12px 26px;margin:6px;border:none;border-radius:26px;font-size:16px;cursor:pointer;background:#b5ead7;color:#093a2f;text-decoration:none;box-shadow:var(--shadow);transition:.25s}
+    .btn-sub:hover{background:#9be0c8;transform:translateY(-1px)}
+    #results{max-width:740px;margin:20px auto;font-size:18px;padding:20px;background:#fff;border-radius:18px;box-shadow:var(--shadow);line-height:1.55}
+    #results h3{margin-top:0;color:#444}
+    #results .pill{display:inline-block;background:var(--rose);color:#b9002f;border-radius:999px;padding:4px 10px;margin:3px;font-size:14px}
+    #results .ok{background:var(--mint);color:#0b7a55}
+    .telegram{text-align:center;margin-top:24px}
+    .telegram a{color:#0088cc;text-decoration:none;font-weight:600}
+    /* Адаптивность */
+    @media (max-width:720px){
+      body{padding:16px}
+      .card{padding:16px;border-radius:18px}
+      input[type=text]{font-size:16px}
+      .buttons{display:flex;flex-direction:column;gap:10px}
+      .buttons button{width:100%}
+      #results{font-size:16px}
+    }
+  </style>
+</head>
+<body>
+  <h1>Проверочная работа по теме: Задания 6–14 ОГЭ</h1>
+  <div class="note">⚠️ Если ответ — десятичная дробь, используйте <b>точку</b> (например: 2.5).</div>
+
+  <!-- Уровень 1 -->
+  <section class="level">
+    <h2>Уровень 1</h2>
+    <div class="card"><h3>Задание 1</h3><div class="expr">$$3\dfrac{4}{9} : \left(1\dfrac{5}{9} - \dfrac{4}{7}\right)$$</div><input type="text" id="q1" placeholder="Ответ"></div>
+    <div class="card"><h3>Задание 2</h3><div class="expr">$$21 \cdot \left(\dfrac{1}{7}\right)^2 - 10 \cdot \dfrac{1}{7}$$</div><input type="text" id="q2"></div>
+    <div class="card"><h3>Задание 3</h3><div class="expr">$$\dfrac{1}{\dfrac{1}{35} - \dfrac{1}{60}}$$</div><input type="text" id="q3"></div>
+    <div class="card"><h3>Задание 4</h3><div class="expr">Представьте выражение $$\dfrac{2}{3} - \dfrac{7}{13}$$ в виде дроби со знаменателем 78. В ответ запишите <b>числитель</b> полученной дроби.</div><input type="text" id="q4"></div>
+    <div class="card"><h3>Задание 5</h3><div class="expr">$$\dfrac{13,2}{1,2}$$</div><input type="text" id="q5"></div>
+  </section>
+
+  <!-- Уровень 2 -->
+  <section class="level">
+    <h2>Уровень 2</h2>
+    <div class="card"><h3>Задание 6</h3><div class="expr">Между какими числами заключено $$\dfrac{130}{11}$$?<br>1) 10 и 11 &nbsp; 2) 11 и 12 &nbsp; 3) 12 и 13 &nbsp; 4) 13 и 14</div><input type="text" id="q6" placeholder="Номер варианта"></div>
+    <div class="card"><h3>Задание 7</h3><div class="expr">Между какими числами заключено $$\sqrt{89}$$?<br>1) 4 и 5 &nbsp; 2) 29 и 31 &nbsp; 3) 9 и 10 &nbsp; 4) 88 и 90</div><input type="text" id="q7" placeholder="Номер варианта"></div>
+  </section>
+
+  <!-- Уровень 3 -->
+  <section class="level">
+    <h2>Уровень 3</h2>
+    <div class="card"><h3>Задание 8</h3><div class="expr">$$\sqrt{a^6 \cdot (-a)^2},\ a=3$$</div><input type="text" id="q8"></div>
+    <div class="card"><h3>Задание 9</h3><div class="expr">$$\sqrt{a^2 - 10ab + 25b^2},\ a=7,\ b=2$$</div><input type="text" id="q9"></div>
+    <div class="card"><h3>Задание 10</h3><div class="expr">$$(\sqrt{50}+\sqrt{2})\cdot\sqrt{2}$$</div><input type="text" id="q10"></div>
+    <div class="card"><h3>Задание 11</h3><div class="expr">$$\sqrt{7\cdot45}\cdot\sqrt{35}$$</div><input type="text" id="q11"></div>
+    <div class="card"><h3>Задание 12</h3><div class="expr">$$\sqrt{4^5}$$</div><input type="text" id="q12"></div>
+    <div class="card"><h3>Задание 13</h3><div class="expr">$$\sqrt{3^6}$$</div><input type="text" id="q13"></div>
+    <div class="card"><h3>Задание 14</h3><div class="expr">$$\dfrac{(4\sqrt{2})^2}{64}$$</div><input type="text" id="q14"></div>
+    <div class="card"><h3>Задание 15</h3><div class="expr">$$\dfrac{200}{(5\sqrt{2})^2}$$</div><input type="text" id="q15"></div>
+    <div class="card"><h3>Задание 16</h3><div class="expr">$$(\sqrt{19}-\sqrt{2})(\sqrt{19}+\sqrt{2})$$</div><input type="text" id="q16"></div>
+    <div class="card"><h3>Задание 17</h3><div class="expr">$$(\sqrt{5}+9)^2-18\sqrt{5}$$</div><input type="text" id="q17"></div>
+    <div class="card"><h3>Задание 18</h3><div class="expr">$$\dfrac{1}{7+\sqrt{47}}+\dfrac{1}{7-\sqrt{47}}$$</div><input type="text" id="q18"></div>
+    <div class="card"><h3>Задание 19</h3><div class="expr">$$\dfrac{a^{14}\cdot(b^4)^3}{(a\cdot b)^{12}},\ a=3,\ b=\sqrt{3}$$</div><input type="text" id="q19"></div>
+    <div class="card"><h3>Задание 20</h3><div class="expr">$$\dfrac{5^9\cdot 8^{11}}{40^9}$$</div><input type="text" id="q20"></div>
+  </section>
+
+  <!-- Уровень 4 -->
+  <section class="level">
+    <h2>Уровень 4</h2>
+    <div class="card"><h3>Задание 21</h3><div class="expr">$$10(x+2)=-7$$</div><input type="text" id="q21"></div>
+    <div class="card"><h3>Задание 22</h3><div class="expr">$$x^2-10x+24=0$$<br><small>Если корней несколько, в ответ запишите <b>больший</b> из них.</small></div><input type="text" id="q22"></div>
+    <div class="card"><h3>Задание 23</h3><div class="expr">$$5x^2=35x$$<br><small>Если корней несколько, в ответ запишите <b>больший</b> из них.</small></div><input type="text" id="q23"></div>
+  </section>
+
+  <!-- Уровень 5 -->
+  <section class="level">
+    <h2>Уровень 5</h2>
+    <div class="card"><h3>Задание 24</h3><div class="expr">На экзамене 25 билетов, Костя <b>не</b> выучил 4 из них. Найдите вероятность того, что ему попадётся выученный билет.</div><input type="text" id="q24"></div>
+    <div class="card"><h3>Задание 25</h3><div class="expr">Игральную кость бросают дважды. Найдите вероятность того, что сумма двух выпавших чисел равна 5 или 8.</div><input type="text" id="q25"></div>
+    <div class="card"><h3>Задание 26</h3><div class="expr">Симметричный игральный кубик бросают два раза. Найдите вероятность события «сумма выпавших очков равна 4, 5, 6 или 7».</div><input type="text" id="q26"></div>
+  </section>
+
+  <!-- Уровень 6 -->
+  <section class="level">
+    <h2>Уровень 6</h2>
+    <div class="card"><h3>Задание 27</h3><div class="expr">Перевести значение температуры по шкале Фаренгейта в шкалу Цельсия позволяет формула $$t_C=\dfrac{5}{9}(t_F-32)$$, где $$t_C$$ – температура в градусах Цельсия, $$t_F$$ – температура в градусах Фаренгейта. Сколько градусов по шкале Цельсия соответствует -58 градусов по шкале Фаренгейта?</div><input type="text" id="q27"></div>
+    <div class="card"><h3>Задание 28</h3><div class="expr">Кинетическая энергия тела массой $$m$$ кг, движущегося со скоростью $$v$$ м/с, вычисляется по формуле $$E=\dfrac{mv^2}{2}$$ и измеряется в джоулях (Дж). Известно, что автомобиль массой 2500 кг обладает кинетической энергией 180 тысяч джоулей. Найдите скорость этого автомобиля в метрах в секунду.</div><input type="text" id="q28"></div>
+    <div class="card"><h3>Задание 29</h3><div class="expr">Центростремительное ускорение при движении по окружности (в м/с^2) можно вычислить по формуле $$a=\omega^2R$$, где $$\omega$$ – угловая скорость (в с^-1), $$R$$ – радиус окружности. Пользуясь этой формулой, найдите радиус $$R$$ (в метрах), если угловая скорость равна 7,5 с^-1, а центростремительное ускорение равно 393,75 м/с^2. Ответ дайте в метрах.</div><input type="text" id="q29"></div>
+  </section>
+
+  <!-- Уровень 7 -->
+  <section class="level">
+    <h2>Уровень 7</h2>
+    <div class="card"><h3>Задание 30</h3><div class="expr">$$-3-x<4x+7$$<br>1) (-∞; -0,8) &nbsp; 2) (-2;+∞) &nbsp; 3) (-∞;-2) &nbsp; 4) (-0,8;+∞)</div><input type="text" id="q30" placeholder="Номер варианта"></div>
+    <div class="card"><h3>Задание 31</h3><div class="expr">{ $$x-5,2\,\geq\,0$$ , $$x+4\,\leq\,10$$ }<br>1) (-∞;5,2]∪[6;+∞) &nbsp; 2) [5,2;+∞) &nbsp; 3) [6;+∞) &nbsp; 4) [5,2;6]</div><input type="text" id="q31" placeholder="Номер варианта"></div>
+    <div class="card"><h3>Задание 32</h3><div class="expr">$$(x+3)(x-5)\,\leq\,0$$<br>1) (-∞;-3] &nbsp; 2) [-3;5] &nbsp; 3) (-∞;5] &nbsp; 4) (-∞;-3]∪[5;+∞)</div><input type="text" id="q32" placeholder="Номер варианта"></div>
+    <div class="card"><h3>Задание 33</h3><div class="expr">$$3x-x^2>0$$<br>1) (3;+∞) &nbsp; 2) (-∞;0)∪(3;+∞) &nbsp; 3) (0;+∞) &nbsp; 4) (0;3)</div><input type="text" id="q33" placeholder="Номер варианта"></div>
+  </section>
+
+  <!-- Уровень 8 -->
+  <section class="level">
+    <h2>Уровень 8</h2>
+    <div class="card"><h3>Задание 34</h3><div class="expr">При проведении опыта вещество равномерно охлаждали в течение 10 минут. При этом каждую минуту температура вещества уменьшалась на 6°С. Найдите температуру вещества (в градусах Цельсия) через 7 минут после начала проведения опыта, если его начальная температура составляла -9°С.</div><input type="text" id="q34"></div>
+    <div class="card"><h3>Задание 35</h3><div class="expr">Водитель автомобиля начал торможение. За секунду после начала торможения автомобиль проехал 30 м, а за каждую следующую секунду он проезжал на 4 м меньше, чем за предыдущую. Сколько метров автомобиль прошёл за первые 5 секунд торможения?</div><input type="text" id="q35"></div>
+    <div class="card"><h3>Задание 36</h3><div class="expr">В амфитеатре 18 рядов, причём в каждом следующем ряду на одно и то же число мест больше, чем в предыдущем. В шестом ряду 26 мест, а в восьмом ряду 30 мест. Сколько мест в последнем ряду амфитеатра?</div><input type="text" id="q36"></div>
+    <div class="card"><h3>Задание 37</h3><div class="expr">Каучуковый мячик с силой бросили на асфальт. Отскочив, мячик подпрыгнул на 5,4 м, а при каждом следующем прыжке он поднимался на высоту в три раза меньше предыдущей. При каком по счёту прыжке мячик в первый раз не достигнет высоты 10 см?</div><input type="text" id="q37"></div>
+  </section>
+
+  <div class="buttons">
+    <button onclick="checkAnswers()">Отправить ответы</button>
+    <button onclick="clearAnswers()">Очистить</button>
+    <a class="btn-sub" href="https://t.me/lera_easy_math" target="_blank">Подписаться на канал</a>
+  </div>
+
+  <div id="results"></div>
+
+  <div class="telegram">
+    <p>Автор: <a href="https://t.me/lera_easy_math" target="_blank">@lera_easy_math</a></p>
+  </div>
+
+<script>
+// ===== Ключи и логика проверки =====
+// Для вариантов ответов используем type:'opt' + value '1'..'4'
+const ANSWERS = {
+  q1: 3.5,  // допускается 7/2
+  q2: -1,
+  q3: 84,
+  q4: 10,   // числитель
+  q5: 11,
+  q6: {type:'opt', value:'2'},
+  q7: {type:'opt', value:'3'},
+  q8: 81,
+  q9: 3,
+  q10: 12,
+  q11: 105,
+  q12: 32,
+  q13: 27,
+  q14: 0.5,
+  q15: 4,
+  q16: 17,
+  q17: 86,
+  q18: 7,
+  q19: 9,
+  q20: 64,
+  q21: -2.7,
+  q22: 6,   // больший корень
+  q23: 7,   // больший корень
+  q24: 0.84, // допускаем 21/25
+  q25: 0.25, // 1/4
+  q26: 0.5,  // 1/2
+  q27: -50,
+  q28: 12,
+  q29: 7,
+  q30: {type:'opt', value:'2'},
+  q31: {type:'opt', value:'4'},
+  q32: {type:'opt', value:'2'},
+  q33: {type:'opt', value:'4'},
+  q34: -51,
+  q35: 110,
+  q36: 50,
+  q37: 5
+};
+
+// Нормализация ввода: поддержка дробей a/b и запятой
+function parseUserValue(s){
+  if(typeof s !== 'string') return null;
+  s = s.trim();
+  if(!s) return null;
+  // Варианты для задач с выбором
+    // Заменяем запятую на точку
+  s = s.replace(/,/g,'.').replace(/\s+/g,'');
+  if(/^[+-]?\d+\/\d+$/.test(s)){
+    const [a,b] = s.split('/').map(Number);
+    if(b===0) return NaN;
+    return a/b;
+  }
+  const n = Number(s);
+  return isNaN(n) ? s : n;
+}
+
+function isCorrect(id, userVal){
+  const key = ANSWERS[id];
+  if(key && typeof key === 'object' && key.type === 'opt'){
+    const m = String(userVal).match(/[1-4]/);
+    return !!m && m[0] === key.value;
+  }
+  const correct = (typeof key === 'number') ? key : Number(key);
+  if(typeof userVal === 'number') return Math.abs(userVal - correct) < 1e-9;
+  const parsed = parseUserValue(String(userVal));
+  if(typeof parsed === 'number') return Math.abs(parsed - correct) < 1e-9;
+  return false;
+}
+
+// Восстановление/сохранение ответов
+window.addEventListener('load', () => {
+  document.querySelectorAll('input[type="text"]').forEach(inp => {
+    const saved = localStorage.getItem(inp.id);
+    if(saved !== null) inp.value = saved;
+    inp.addEventListener('input', () => localStorage.setItem(inp.id, inp.value));
+  });
+});
+
+function checkAnswers(){
+  const inputs = Array.from(document.querySelectorAll('input[type="text"]'));
+  const total = inputs.length;
+  let correct = 0;
+  const mistakes = [];
+
+  inputs.forEach(inp => {
+    const raw = inp.value.trim();
+    const val = parseUserValue(raw);
+    if(raw === ''){
+      mistakes.push(`<span class='pill'>Задание ${inp.id.replace('q','')} — нет ответа</span>`);
+      return;
+    }
+    if(isCorrect(inp.id, val)){
+      correct++;
+    } else {
+      mistakes.push(`<span class='pill'>Задание ${inp.id.replace('q','')} — ошибка (ваш: ${raw})</span>`);
+    }
+  });
+
+  const percent = Math.round((correct/total)*100);
+  const msg = percent>=75 ? "Отлично! Ты справился(лась) лучше чем 75% 👍 Молодец!" : "Нужно ещё потренироваться, у тебя всё получится!";
+
+  document.getElementById('results').innerHTML = `
+    <h3>Итоги</h3>
+    <span class='pill ok'>Верно: ${correct} из ${total}</span>
+    <span class='pill'>Ошибок: ${total-correct}</span>
+    <span class='pill'>Процент: ${percent}%</span><br>${msg}
+    ${mistakes.length? `<hr><div>${mistakes.join(' ')}</div>`: ''}
+  `;
+}
+
+function clearAnswers(){
+  document.querySelectorAll('input[type="text"]').forEach(inp=>{inp.value='';localStorage.removeItem(inp.id)});
+  document.getElementById('results').innerHTML='';
+}
+</script>
+</body>
+</html>
